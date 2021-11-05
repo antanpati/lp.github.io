@@ -1,0 +1,18 @@
+/* Navbar */
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+/* Desktop Version */
+// Medium devices (tablets, 768px and up)
+@media (min-width: 900px) {
+  .nav-link {
+    text-tranform: lowercase;
+  }
+}
